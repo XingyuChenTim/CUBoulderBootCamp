@@ -1,12 +1,9 @@
 ---
-title: "\vspace{1.5in}Tuition Cost in College and Analysis"
+title: "Tuition Cost in College and Analysis"
 author: |
   | Xingyu Chen
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
-  html_document:
-    toc_depth: '2'
-    df_print: paged
   pdf_document:
     fig_caption: yes
     number_sections: yes
@@ -19,18 +16,10 @@ output:
     toc_depth: 2
     df_print: kable
     highlight: tango
-abstract: 'The cost of college tuition has been one of the most important topics for
-  both high school students and pre-college programs. It is necessary to have a data
-  product that shows how tuition costs change between US universities. In my project,
-  I want to perform research on the cost of college tuition based on several different
-  and for profit. The dataset will also include degree length and state name so that
-  I can plot a map view of the data product and compare cost by year. I added another
-  dataset contains Date and Time data so I can plot a graph about Tuition Difference
-  based on year. I will use different charts generated with R along with related R
-  library and analyze the result. At the end of my project, I will come to a conclusion
-  about tuition statistics for US colleges and make recommendations for high school
-  students and pre-college students.'
-  categories such as in-state tuition vs out-state tuition; School type: public, private,
+  html_document:
+    toc_depth: '2'
+    df_print: paged
+abstract: 'The cost of college tuition has been one of the most important topics for both high school students and pre-college programs. It is necessary to have a data product that shows how tuition costs change between US universities. In my project, I want to perform research on the cost of college tuition based on several different categories such as in-state tuition vs out-state tuition; School type: public, private,and for profit. The dataset will also include degree length and state name so that I can plot a map view of the data product and compare cost by year. I added another dataset contains Date and Time data so I can plot a graph about Tuition Difference based on year. I will use different charts generated with R along with related R library and analyze the result. At the end of my project, I will come to a conclusion about tuition statistics for US colleges and make recommendations for high school students and pre-college students.'
 subtitle: Data Bootcamp - CU Boulder
 fontsize: 12pt
 geometry: margin=1in
